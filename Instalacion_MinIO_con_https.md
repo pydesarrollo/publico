@@ -145,6 +145,8 @@ Edita:
     ServerName console.dirislimaeste.xyz
 
     ProxyPreserveHost On
+    ProxyPass /ws/ ws://localhost:9001/ws/
+    ProxyPassReverse /ws/ ws://localhost:9001/ws/
     ProxyPass / http://localhost:9001/
     ProxyPassReverse / http://localhost:9001/
 
