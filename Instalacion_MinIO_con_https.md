@@ -180,19 +180,19 @@ Edita:
 
 Guarda y Cierra
 
-### `12. Activar Host Virtuales`
-```bash
-sudo a2ensite console.dirislimaeste.xyz.conf
-sudo a2ensite dirislimaeste.xyz.conf
-sudo service apache2 restart
-```
 
-### `13. Activar Módulo Proxy Inverso Apache`
+### `12. Activar Módulo Proxy Inverso Apache`
 ```bash
 sudo a2enmod proxy proxy_http
 sudo service apache2 restart
 ```
 
+### `13. Activar Host Virtuales`
+```bash
+sudo a2ensite console.dirislimaeste.xyz.conf
+sudo a2ensite dirislimaeste.xyz.conf
+sudo service apache2 restart
+```
 
 ### `14. Instalar Cerbot para Apache(Certificados SSL)`
 ```bash
